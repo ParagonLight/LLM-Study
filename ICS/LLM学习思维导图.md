@@ -44,33 +44,33 @@
 
 ## Development phase
 
-    - Preparing dataset
-    - Training LLM
-        - Pretraining
-        - Supervised finetuning (sft)
-        - RLHF
-        - sft with LoRA
+- Preparing dataset
+- Training LLM
+    - Pretraining
+    - Supervised finetuning (sft)
+    - RLHF
+    - sft with LoRA
 
-    - Training-related framework
-        - transformers
-            - hf trainer
-        - peft
-        - accerlrate
-        - deepspeed
-        - fsdp (ZeRO series)
-        - others
-            - precision
-                - bfloat16
-                - float32
-                - ...
-            - mixed precision
-        - LLaMA factory
+- Training-related framework
+    - transformers
+    - hf trainer
+    - peft
+    - accerlrate
+    - deepspeed
+    - fsdp (ZeRO series)
+    - others
+        - precision
+            - bfloat16
+            - float32
+            - ...
+        - mixed precision
+    - LLaMA factory
 
 ## Application phase
 
-    - LLM + RAG
-    - LLM as Agent
-    - NL2SQL
-    - Code generation
-    - World model/foundation model
+- LLM + RAG
+- LLM as Agent
+- NL2SQL
+- Code generation
+- World model/foundation model
     
